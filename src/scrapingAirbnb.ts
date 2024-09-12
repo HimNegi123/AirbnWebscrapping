@@ -7,7 +7,6 @@ interface ListingData {
     image: string[];
 }
 
-
 async function webScraping(city: string, country: string): Promise<ListingData[]> {
     let browser;
     try {
