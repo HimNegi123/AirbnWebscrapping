@@ -1,0 +1,19 @@
+{
+  "name": "webserverairbn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.4",
+    "express": "^4.21.0",
+    "puppeteer": "^23.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
