@@ -24,10 +24,6 @@ function convertUrlToReview(url) {
     return [];
   });
 
-  // Optional: Clear existing hrefs if needed
-  hrefs.splice(0, hrefs.length);
-  hrefs.push('https://www.airbnb.co.in/rooms/956325156020381225?category_tag=Tag%3A8678&enable_m3_private_room=true&photo_id=1892769507&search_mode=regular_search&check_in=2024-09-24&check_out=2024-09-28&source_impression_id=p3_1726308459_P32mpE-u1sF0rmuZ&previous_page_section_name=1000&federated_search_id=b5e914a8-d523-4b88-85b5-d053ffcc3f11');
-
   const reviewPage = [];
 
   // Process each href, convert to reviews URL, and scrape reviews
