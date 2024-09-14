@@ -1,4 +1,4 @@
-import puppeteer, { Page } from 'puppeteer';
+const puppeteer = require('puppeteer');
 
 interface ListingData {
     title: string;
